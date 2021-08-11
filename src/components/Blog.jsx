@@ -22,12 +22,12 @@ const Blog = () => {
     },
   ]
   return (
-    <div id="blog" className="p-8 mt-15" style={{background:"#0E1727"}}>
+    <div id="blog" className="p-8 mt-15 bg-mirage-600 dark:bg-mirage-400">
       <h1 className="text-center font-bold font-sans text-4xl mt-10 text-indigo-50 mb-10 ">Our Blog</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
         {
           data.map(({title,name,address,text}) => (
-            <div data-aos="slide-left" className="shadow-lg m-3 p-4 flex flex-col mt-6 rounded-lg hover:scale-105 transition transform duration-200 ease-in-out" style={{ background: " #282F3B" }}>
+            <div data-aos="slide-left" className="shadow-lg m-3 p-4 flex flex-col mt-6 rounded-lg hover:scale-105 transition transform duration-200 ease-in-out bg-charade-500 dark:bg-green-800">
               <h4 className="text-indigo-50 mb-8 mt-6 text-lg font-bold font-sans">{title}</h4>
               <h6 className="text-gray-200 mb-6 text-left">{name}</h6>
               <h6 className="text-gray-200 mb-6 text-left">{address}</h6>

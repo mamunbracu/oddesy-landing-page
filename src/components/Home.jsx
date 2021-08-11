@@ -10,7 +10,7 @@ import Service from './Service'
 
 const Home = () => {
   return (
-    <>
+    <div className="transition duration-500">
        <NavBar />
         <Hero />
         <Banner />
@@ -19,7 +19,7 @@ const Home = () => {
         <Blog />
         <NewsLetter />
         <Footer />
-    </>
+    </div>
   )
 }
 

@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const Achievement = () => {
 
 	return (
-		<div id="portfolio" className="p-8 bg-gray-800" style={{ background: "#OE1727" }}>
-			<h1 className="text-center  text-indigo-50 mt-8 font-bold font-sans text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl mb-8">
+		<div id="portfolio" className="p-8 bg-gray-800 dark:bg-pink-900" style={{ background: "#OE1727" }}>
+			<h1 className="text-center  text-indigo-50 dark:text-yellow-500 mt-8 font-bold font-sans text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl mb-8">
 				Helping thousand customers to acheive their goals
 			</h1>
-			<p className="mb-6 text-indigo-50 font-mono">
+			<p className="mb-6 text-indigo-50 dark:text-indigo-300 font-mono">
 				Odyssey digital has been partnering with many companies over the world
 				successfully and we have been successful always in achieving the
 				satisfaction of our clients. We can say it proudly that we have turned
@@ -16,7 +16,7 @@ const Achievement = () => {
 			</p>
 			<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 items-center lg:grid-cols-4 xl:grid-cols-5">
 				<img
-					className="mb-8 hover:scale-105 transition transform duration-200 ease-out"
+					className="mb-8 hover:scale-105 transition transform duration-200 ease-out dark:border-pink-900"
 					src="/assets/bb.png"
 					alt=""
           data-aos="fade-left"
